@@ -1,0 +1,30 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Test task</title>
+</head>
+
+<body>
+  <table class="table_sort">
+    <thead>
+      <tr>
+        <th class="t-header" data-prop="firstName" data-sort="asc">First-name</th>
+        <th class="t-header" data-prop="age" data-sort="asc">Age</th>
+        <th class="t-header" data-prop="birthDate" data-sort="asc">Birthdate</th>
+      </tr>
+    </thead>
+    <tbody id="users-table-body"></tbody>
+  </table>
+  <div class="modal" id="modal">
+    <div id="modal_body"></div>
+    <button class="class-button" id="close-button">Закрыть</button>
+  </div>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
+
